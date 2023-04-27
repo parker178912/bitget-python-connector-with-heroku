@@ -18,10 +18,14 @@
     passphrase = ""     # put your passphrase
 ```
 ### tradingview_msg_example
-> 在tradingview alert中訊息欄所放置之訊息，可藉由快訊提取自己所需的部分在程式中使用
-```
-    data = json.loads(request.data)
-```
+在tradingview alert中訊息欄所放置之訊息，可藉由快訊提取自己所需的部分在程式中使用
+
+![image](https://user-images.githubusercontent.com/87221772/234738295-507d31e7-6455-47ea-af0d-04b0fa376892.png)
+
+打開 webhook 並填入 heroku 主機 url
+
+![image](https://user-images.githubusercontent.com/87221772/234738448-f5bd5626-08f4-4712-8bd5-c54eebe6c7f0.png)
+
 ### 運行
 1. 在 command 中輸入 flask run 以在本地端進行測試
 2. 測試訊息可使用 tradingview alert 傳出之訊息
