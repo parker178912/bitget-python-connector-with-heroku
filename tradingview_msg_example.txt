@@ -11,6 +11,8 @@
         "volume": {{volume}}
     },
     "strategy": {
+        "stopLossPrice":{{plot_3}},
+        "takeprofit":{{plot_4}},
         "position_size": {{strategy.position_size}},
         "order_action": "{{strategy.order.action}}",
         "order_contracts": {{strategy.order.contracts}},
