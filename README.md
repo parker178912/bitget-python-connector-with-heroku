@@ -1,4 +1,4 @@
-## Bitget_api_python tradingview_to_heroku by trader
+## bitget-python-connector-with-heroku
 `2022.12 將 tradingview 策略的訊號自動發送至 bitget 交易所`
 `2023.04.27 將bitget-python-connector加入`
  
